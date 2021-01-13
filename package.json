@@ -18,7 +18,7 @@
     "grunt-cdn": "^0.6.5",
     "grunt-cloudfiles": "^0.3.0",
     "grunt-contrib-clean": "^2.0.0",
-    "grunt-contrib-imagemin": "^3.1.0",
+    "grunt-contrib-imagemin": "^4.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-express": "^1.4.1",
     "grunt-juice-email": "^0.1.3",
