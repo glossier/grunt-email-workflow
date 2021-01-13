@@ -14,7 +14,7 @@
     "grunt": "^1.0.4",
     "grunt-assemble": "^0.6.3",
     "grunt-autoprefixer": "^3.0.4",
-    "grunt-aws-s3": "^2.0.1",
+    "grunt-aws-s3": "^2.0.2",
     "grunt-cdn": "^0.6.5",
     "grunt-cloudfiles": "^0.3.0",
     "grunt-contrib-clean": "^2.0.0",
