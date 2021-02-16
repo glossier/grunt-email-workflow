@@ -1,3 +1,9 @@
-twitter_url: "http://twitter.com/leemunroe"
-twitter_handle: "@leemunroe"
-unsubscribe_url: "http://giphy.com/gifs/stop-christina-aguilera-ncuegg83kFeBW"
+---
+social:
+  twitter_url: http://twitter.com/leemunroe
+  twitter_handle: '@glossier'
+  instagram_url: https://instagram.com/glossier
+  instragram_handle: '@glossier'
+  facebook_url: https://www.facebook.com/glossier
+logo:
+  footer_url: http://glossier.s3.amazonaws.com/mailers/images/icons.png
