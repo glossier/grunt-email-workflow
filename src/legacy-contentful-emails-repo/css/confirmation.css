@@ -9,7 +9,7 @@
 /*MMQ*/
 @media screen and (max-width:597px) {
   .hideline {
-    border-top: 0px solid #ffffff !important;
+    border-top: 0px solid #fff !important;
     height: 14px !important;
   }
 }

@@ -1,0 +1,93 @@
+---
+layout: 2021.hbs
+subject: New Template Preview
+---
+
+{{> preview_text body="Preview text goes here" }}
+
+<!-- This ghost table is used to constrain the width in Outlook. The role attribute is set to presentation to prevent it from being read by screenreaders. -->
+<!--[if (gte mso 9)|(IE)]>
+    <table cellspacing="0" cellpadding="0" border="0" width="600" align="center" role="presentation"><tr><td>
+    <![endif]-->
+<!-- The role and aria-label attributes are added to wrap the email content as an article for screen readers. Some of them will read out the aria-label as the title of the document, so use something like "An email from Your Brand Name" to make it recognizable. -->
+<!-- Default styling of text is applied to the wrapper div. Be sure to use text that is large enough and has a high contrast with the background color for people with visual impairments. -->
+<div>
+
+  <!-- Logo section and header. Headers are useful landmark elements. -->
+  <header>
+    <!-- Since this is a purely decorative image, we can leave the alternative text blank. -->
+    <!-- Linking images also helps with Gmail displaying download links next to them. -->
+    <center>
+      <a href="https://litmus.com/community"><img src="logo@2x.png" alt="Insert alt text here" height="80"
+          width="80"></a>
+    </center>
+    <!-- The h1 is the main heading of the document and should come first. -->
+    <!-- We can override the default styles inline. -->
+    <h1>
+      News from Your Friends<br>
+      <span style="font-size: 24px; font-weight: 600;">Summer Edition</span>
+    </h1>
+  </header>
+
+  <!-- Main content section. Main is a useful landmark element. -->
+  <main>
+    <!-- Article elements can be used to section individual articles in an email. -->
+    <article>
+      <!-- This image uses a responsive-by-default approach. It will scale across devices. -->
+      <img alt="Insert alt text here" src="summer@2x.png" width="600" border="0"
+        style="border-radius: 4px; display: block; margin-top: 48px; max-width: 100%; min-width: 100px; width: 100%;">
+      <!-- A level 2 heading is used to keep the document order correct. -->
+      <h2>
+        Summer is here!
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae laborum, eveniet asperiores atque repellendus
+        quo nostrum eos enim eum illum non ad quidem ipsa dolore esse, reprehenderit obcaecati! Vel, quas.
+      </p>
+      <!-- This link uses descriptive text to inform the user what will happen with the link is tapped. -->
+      <!-- It also uses inline styles since some email clients won't render embedded styles from the head. -->
+      <a href="https://litmus.com/community" style="color: #B200FD; text-decoration: underline;">Build more accessible
+        emails</a>
+    </article>
+    <article>
+      <!-- This image uses a responsive-by-default approach. It will scale across devices. -->
+      <img alt="Insert alt text here" src="fall@2x.png" width="600" border="0"
+        style="border-radius: 4px; display: block; margin-top: 48px; max-width: 100%; min-width: 100px; width: 100%;">
+      <!-- A level 2 heading is used to keep the document order correct. -->
+      <h2>
+        But fall will be here soon&hellip;
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae laborum, eveniet asperiores atque repellendus
+        quo nostrum eos enim eum illum non ad quidem ipsa dolore esse, reprehenderit obcaecati! Vel, quas.
+      </p>
+      <!-- This link uses descriptive text to inform the user what will happen with the link is tapped. -->
+      <!-- It also uses inline styles since some email clients won't render embedded styles from the head. -->
+      <a href="https://litmus.com/community" style="color: #B200FD; text-decoration: underline;">Build more accessible
+        emails</a>
+    </article>
+    <article>
+      <!-- This image uses a responsive-by-default approach. It will scale across devices. -->
+      <img alt="Insert alt text here" src="winter@2x.png" width="600" border="0"
+        style="border-radius: 4px; display: block; margin-top: 48px; max-width: 100%; min-width: 100px; width: 100%;">
+      <!-- A level 2 heading is used to keep the document order correct. -->
+      <h2>
+        Who's ready for winter?
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae laborum, eveniet asperiores atque repellendus
+        quo nostrum eos enim eum illum non ad quidem ipsa dolore esse, reprehenderit obcaecati! Vel, quas.
+      </p>
+      <!-- This link uses descriptive text to inform the user what will happen with the link is tapped. -->
+      <!-- It also uses inline styles since some email clients won't render embedded styles from the head. -->
+      <a href="https://litmus.com/community" style="color: #B200FD; text-decoration: underline;">Build more accessible
+        emails</a>
+    </article>
+  </main>
+
+  {{> footer }}
+
+</div>
+<!--[if (gte mso 9)|(IE)]>
+    </td></tr></table>
+    <![endif]-->

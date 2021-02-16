@@ -6,4 +6,5 @@ social:
   instragram_handle: '@glossier'
   facebook_url: https://www.facebook.com/glossier
 logo:
-  footer_url: http://glossier.s3.amazonaws.com/mailers/images/icons.png
+  footer_url: https://glossier-email-assets.s3.us-east-1.amazonaws.com/images/g-mark-footer_2x.png
+privacy_policy_url: https://glossier.com/privacy-policy
