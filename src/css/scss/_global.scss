@@ -15,7 +15,7 @@ img {
 }
 
 body {
-  font-family: 'Apercu Pro', -apple-system, Helvetica, Arial, sans-serif;
+  font-family: 'Apercu Pro', -apple-system, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 14px;
   height: 100% !important;
@@ -35,7 +35,7 @@ table {
   width: 100%;
 
   td {
-    font-family: 'Apercu Pro', -apple-system, Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: 'Apercu Pro', -apple-system, Helvetica, sans-serif;
     font-size: 14px;
     vertical-align: top;
   }
@@ -53,4 +53,8 @@ table {
 .ExternalClass td,
 .ExternalClass div {
   line-height: 100%;
+}
+
+footer {
+  background-color: #fafafa !important;
 }
